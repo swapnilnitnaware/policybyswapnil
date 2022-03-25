@@ -1,0 +1,17 @@
+{
+  "Id": "Policy1648192115789",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1648192109982",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::mumbai1buck",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::003046506210:user/u2"
+        ]
+      }
+    }
+  ]
+}
